@@ -10,7 +10,6 @@ terraform {
 
 provider "aws" {
   region  = "eu-central-1"
-  profile = "310199055229_AdministratorAccess"
 }
 
 resource "aws_instance" "app_server_1" {
