@@ -31,7 +31,7 @@ terraform {
       encrypt = true
       bucket = "test-repository"
       dynamodb_table = "terraform-state-lock-dynamo-2"
-      key = "path/path/terraform.tfstate"
+      key = "terraform.tfstate"
       region = "eu-central-1"
   }
 }
